@@ -20,10 +20,10 @@ class Circulo:
         self.calcularPerimetro()
 
     def calcularArea(self):
-        return 0
+        self.__area = math.pi * (self.__radio * self.__radio)
 
     def calcularPerimetro(self):
-        return 0
+        self.__perimetro = (2 * math.pi) * self.__radio
 
     def getArea(self):
         return self.__area
